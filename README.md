@@ -1,15 +1,10 @@
-## **PROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN OOP**
+## **PROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN OBJECT ORIENTED PROGRAMING(OOP)**
 
 ### **PENGERTIAN OOP**
 - **object-oriented-programing/OOP** adalah paradigma pemrograman berdasarkan konsep "objek", yang dapat berisi data, dalam bentuk field atau dikenal juga sebagai atribut; serta kode, dalam bentuk fungsi/prosedur atau dikenal juga sebagai method.
 <br>
 
 ```sh
-print('\033[1m','\33[34m')
-print("=" * 65)
-print("|\tPROGRAM INPUT NILAI MAHASISWA MENGGUNAKAN OOP\t|")
-print("=" * 65)
-
 dataMahasiswa = {}
 
 class mahasiswa(object):
@@ -49,10 +44,6 @@ class mahasiswa(object):
                     print("\33[33m\nDATA BERHASIL DI UBAH!")
                 else:
                     print("\33[31m\DATA TIDAK DI TEMUKAN!")
-                    
-
-
-
 while True:
     data = input("\033[1m \33[34m \n 1 - Tambah Data\t 2 - Tampilkan Data\t 3 - Hapus Data\t 4 - Ubah Data\t 5 - Keluar \n : "
     )
@@ -88,17 +79,17 @@ while True:
     else:
         print("\33[31mPILIHAN MENU TIDAK ADA!")
 ```
-<br>
-## **PENJELASAN**
-1. dekralarasi *dataMahasasiwa* sebagai object untuk menerima inputan data.
-2. deklarasi *class* di isi dengan method:
-- def tambah() di isi dengan inputan *nama, nim, tugas, uts, uas, akhir* , di variable akhir di isi dengan penjumlahan dan bagi 3, untuk tugas 3.5 untuk uts, 3.5 untuk uas. terakhir masukan semua kedalam object *dataMahasiswa*.
 
-- def tampil() untuk mencetak object *dataMahasiwa* serta gunakan perulangan *for* untuk mecetak semua data jika di dalam object  *dataMahasiwa* berisi banyak data.
-- def hapus(nama) untuk menghapus data di dalam parameter nama dan gunakan syntax *del*.
-- def ubah(nama) untuk mengubah data di dalam parameter nama  dan gunakan statment *if else nama di dalam dataMahasiswa* lalu masukan kembali ke dalam object *dataMahasiswa*.
-3. gunakan pengulangan *while True* di isikan dengan inputan menu, lalu di dalamnya di isikan dengan statment *if elif else*.
-4. di dalam statment *if elif else* di isikan dengan memanggil masing-masing method yang ada di dalam *class mahasiswa*.
-5. selesai
+## **PENJELASAN**<br>
+## 1. deklarasi *dataMahasasiwa* sebagai object untuk menerima inputan data.<br>
+## 2. deklarasi *class* di isi dengan method:
+### - def tambah() di isi dengan inputan *nama, nim, tugas, uts, uas, akhir* , di variable akhir di isi dengan penjumlahan dan bagi 3, untuk tugas 3.5 untuk uts, 3.5 untuk uas. terakhir masukan semua kedalam object *dataMahasiswa*.
+
+### - def tampil() untuk mencetak object *dataMahasiwa* serta gunakan perulangan *for* untuk mecetak semua data jika di dalam object  *dataMahasiwa* berisi banyak data.
+### - def hapus(nama) untuk menghapus data di dalam parameter nama dan gunakan syntax *del*.
+### - def ubah(nama) untuk mengubah data di dalam parameter nama  dan gunakan statment *if else nama di dalam dataMahasiswa* lalu masukan kembali ke dalam object *dataMahasiswa*.<br>
+## 3. gunakan pengulangan *while True* di isikan dengan inputan menu, lalu di dalamnya di isikan dengan statment *if elif else*.
+## 4. di dalam statment *if elif else* di isikan dengan memanggil masing-masing method yang ada di dalam *class mahasiswa*.
+## selesai
 ## **FLOWCHART**
 ![img](gambar/flowchart.png)
