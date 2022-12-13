@@ -93,3 +93,5 @@ while True:
 ## selesai
 ## **FLOWCHART**
 ![img](gambar/flowchart.png)
+## **DIAGRAM CLASS**
+![img](gambar/diagramclass.png)
